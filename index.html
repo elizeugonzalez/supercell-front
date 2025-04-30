@@ -6,150 +6,75 @@
   <title>Service 4.0 - Orçamento Imediato</title>
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
-    body { font-family: Arial, sans-serif; background: #f5f5f5; text-align: center; color: #333; }
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      text-align: center;
+      color: #333;
+    }
     nav {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 15px 30px;
-      font-size: 14px;
-      background: #e0e0e0;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+      background-color: #fff;
+      padding: 10px 20px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     }
-    nav .left-icons, nav .right-menu {
-      display: flex;
-      gap: 15px;
-      align-items: center;
+    nav img {
+      height: 40px;
     }
-    nav a {
-      text-decoration: none;
-      color: #444;
+    main {
+      margin-top: 50px;
     }
-    .hero {
-      background: #ffffff;
-      padding: 50px 20px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    h1 {
+      font-size: 24px;
+      margin-bottom: 20px;
     }
-    .logo-block {
+    p {
+      font-size: 18px;
+    }
+    footer {
+      margin-top: 80px;
+      padding: 20px;
+      background-color: #eee;
+    }
+    .footer-logos {
       display: flex;
       justify-content: center;
       align-items: center;
-      gap: 30px;
-      margin-bottom: 30px;
-    }
-    .logo-eg {
-      width: 80px;
-      height: 80px;
-      object-fit: contain;
-      padding: 5px;
-      background: #f0f0f0;
-      border-radius: 12px;
-    }
-    .brasao {
-      width: 50px;
-      opacity: 0.6;
-    }
-    .hero h1 {
-      font-size: 32px;
-      font-weight: bold;
-      color: #222;
-    }
-    .hero p.sub {
-      font-size: 14px;
-      color: #555;
-      margin-bottom: 30px;
-    }
-    .hero h2 {
-      font-size: 34px;
-      font-weight: bold;
-      color: #111;
+      gap: 40px;
       margin-bottom: 10px;
     }
-    .hero p.desc {
-      font-size: 20px;
-      color: #444;
-      margin-bottom: 25px;
+    .footer-logos img {
+      height: 50px;
     }
-    .cta-button {
-      padding: 16px 34px;
-      background: #444;
-      color: #fff;
-      text-decoration: none;
-      border-radius: 10px;
-      font-weight: bold;
-      display: inline-block;
-      margin-bottom: 40px;
-    }
-    .device-images img {
-      max-height: 320px;
-    }
-    .powered {
-      margin-top: 50px;
-      font-size: 16px;
+    .footer-text {
+      font-size: 14px;
       color: #555;
-    }
-    .powered img {
-      margin-top: 10px;
-      width: 120px;
-    }
-    .social-icons img {
-      width: 28px;
-      height: 28px;
-      filter: grayscale(1);
-      transition: filter 0.3s ease;
-    }
-    .social-icons img:hover {
-      filter: grayscale(0);
     }
   </style>
 </head>
 <body>
 
   <nav>
-    <div class="left-icons social-icons">
-      <a href="https://facebook.com" target="_blank">
-       <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook" />
-
-      </a>
-      <a href="https://instagram.com" target="_blank">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" />
-      </a>
-      <a href="https://wa.me/5599999999999" target="_blank">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" />
-      </a>
-    </div>
-    <div class="right-menu">
-      <a href="#">REPAROS</a>
-      <a href="#">SOBRE NÓS</a>
-      <a href="#">CONTATO</a>
-      <a href="#">☰</a>
-    </div>
+    <img src="logoopen.png" alt="Logo OpenAI">
+    <img src="brasao.png" alt="Brasão da Família Gonzalez">
   </nav>
 
-  <div class="hero">
-    <div class="logo-block">
-      <img src="LogoEg.png" alt="Logo EG" class="logo-eg" />
-      <div>
-        <h1>SERVICE 4.0</h1>
-        <p class="sub">ONDE O FUTURO E O PRESENTE SE ENCONTRAM COM INTELIGÊNCIA REAL</p>
-      </div>
-      <img src="brasao.png" alt="Brasão" class="brasao" />
+  <main>
+    <h1>Supercell Service 4.0</h1>
+    <p>Orçamento imediato com inteligência real aplicada.</p>
+  </main>
+
+  <footer>
+    <div class="footer-logos">
+      <img src="logoopen.png" alt="Logo OpenAI">
+      <img src="brasao.png" alt="Brasão Gonzalez">
     </div>
-
-    <h2>Seu orçamento<br>imediato</h2>
-    <p class="desc">Com a tecnologia do futuro</p>
-
-    <a href="#" class="cta-button">Obtenha um orçamento imediato</a>
-
-    <div class="device-images">
-      <img src="cel.png" alt="Celular" />
+    <div class="footer-text">
+      © 2025 - Supercell Service 4.0 | Powered by OpenAI & Família Gonzalez
     </div>
-
-    <div class="powered OpenAI">
-      Powered by OpenAI<br>
-      <img src="logoopen.png" alt="Logo OpenAI" />
-    </div>
-  </div>
+  </footer>
 
 </body>
 </html>
