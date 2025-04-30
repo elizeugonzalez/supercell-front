@@ -1,0 +1,93 @@
+CTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Service 4.0 - Orçamento Imediato</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #fff;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    header {
+      padding: 20px 10px 10px;
+    }
+    header img.logo {
+      width: 60px;
+      margin-bottom: 10px;
+    }
+    .titulo {
+      font-weight: 700;
+      font-size: 28px;
+      margin: 0;
+    }
+    .subtitulo {
+      font-size: 12px;
+      color: #666;
+      margin-bottom: 20px;
+    }
+    .principal {
+      font-size: 32px;
+      font-weight: bold;
+      margin: 30px 0 10px;
+    }
+    .descricao {
+      font-size: 18px;
+      color: #444;
+    }
+    .cta-button {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 14px 28px;
+      background-color: #333;
+      color: #fff;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 14px;
+    }
+    .devices {
+      margin-top: 40px;
+    }
+    .devices img {
+      max-width: 150px;
+      margin: 0 10px;
+    }
+    .powered {
+      margin-top: 50px;
+      font-size: 14px;
+      color: #888;
+    }
+    .powered img {
+      width: 100px;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6e/OpenAI_Logo.svg" alt="Logo EG" class="logo" />
+    <h1 class="titulo">SERVICE 4.0</h1>
+    <p class="subtitulo">ONDE O FUTURO E O PRESENTE SE ENCONTRAM COM INTELIGÊNCIA REAL</p>
+  </header>
+
+  <div>
+    <p class="principal">Seu orçamento<br>imediato</p>
+    <p class="descricao">com a tecnologia do futuro</p>
+    <a href="#" class="cta-button">OBTER UM ORÇAMENTO</a>
+    <div class="devices">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/3/32/IPhone_12_Green.svg" alt="iPhone" />
+      <img src="https://upload.wikimedia.org/wikipedia/commons/8/8c/IPad_Pro.svg" alt="iPad" />
+    </div>
+    <div class="powered">
+      Powered by<br />
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/6e/OpenAI_Logo.svg" alt="OpenAI logo" />
+    </div>
+  </div>
+
+</body>
+</html>
