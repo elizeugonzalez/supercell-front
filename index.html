@@ -5,56 +5,150 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Service 4.0 - Orçamento Imediato</title>
   <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    body {
-      font-family: Arial, sans-serif;
-      background: #f5f5f5;
-      text-align: center;
-      color: #333;
-    }
-
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: Arial, sans-serif; background: #f5f5f5; text-align: center; color: #333; }
     nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 30px;
+      font-size: 14px;
+      background: #e0e0e0;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    }
+    nav .left-icons, nav .right-menu {
+      display: flex;
+      gap: 15px;
+      align-items: center;
+    }
+    nav a {
+      text-decoration: none;
+      color: #444;
+    }
+    .hero {
+      background: #ffffff;
+      padding: 50px 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    }
+    .logo-block {
       display: flex;
       justify-content: center;
       align-items: center;
-      padding: 20px;
-      background-color: #fff;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      gap: 30px;
+      margin-bottom: 30px;
     }
-
-    nav img {
+    .logo-eg {
+      width: 80px;
       height: 80px;
+      object-fit: contain;
+      padding: 5px;
+      background: #f0f0f0;
+      border-radius: 12px;
     }
-
-    main {
-      padding: 40px 20px;
+    .brasao {
+      width: 50px;
+      opacity: 0.6;
     }
-
-    h1 {
-      font-size: 26px;
-      margin-bottom: 20px;
+    .hero h1 {
+      font-size: 32px;
+      font-weight: bold;
+      color: #222;
     }
-
-    p {
-      font-size: 18px;
+    .hero p.sub {
+      font-size: 14px;
+      color: #555;
+      margin-bottom: 30px;
+    }
+    .hero h2 {
+      font-size: 34px;
+      font-weight: bold;
+      color: #111;
+      margin-bottom: 10px;
+    }
+    .hero p.desc {
+      font-size: 20px;
+      color: #444;
+      margin-bottom: 25px;
+    }
+    .cta-button {
+      padding: 16px 34px;
+      background: #444;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 10px;
+      font-weight: bold;
+      display: inline-block;
+      margin-bottom: 40px;
+    }
+    .device-images img {
+      max-height: 320px;
+    }
+    .powered {
+      margin-top: 50px;
+      font-size: 16px;
+      color: #555;
+    }
+    .powered img {
+      margin-top: 10px;
+      width: 120px;
+    }
+    .social-icons img {
+      width: 28px;
+      height: 28px;
+      filter: grayscale(1);
+      transition: filter 0.3s ease;
+    }
+    .social-icons img:hover {
+      filter: grayscale(0);
     }
   </style>
 </head>
 <body>
 
   <nav>
-    <img src="logoopen.png" alt="Logo Supercell Service 4.0">
+    <div class="left-icons social-icons">
+      <a href="https://facebook.com" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Facebook_Messenger_4_Logo.svg" alt="Facebook" />
+      </a>
+      <a href="https://instagram.com" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" />
+      </a>
+      <a href="https://wa.me/5599999999999" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" />
+      </a>
+    </div>
+    <div class="right-menu">
+      <a href="#">REPAROS</a>
+      <a href="#">SOBRE NÓS</a>
+      <a href="#">CONTATO</a>
+      <a href="#">☰</a>
+    </div>
   </nav>
 
-  <main>
-    <h1>Supercell Service 4.0</h1>
-    <p>Bem-vindo ao futuro da manutenção inteligente com DNA Gonzalez.</p>
-  </main>
+  <div class="hero">
+    <div class="logo-block">
+      <img src="LogoEg.png" alt="Logo EG" class="logo-eg" />
+      <div>
+        <h1>SERVICE 4.0</h1>
+        <p class="sub">ONDE O FUTURO E O PRESENTE SE ENCONTRAM COM INTELIGÊNCIA REAL</p>
+      </div>
+      <img src="brasao.png" alt="Brasão" class="brasao" />
+    </div>
+
+    <h2>Seu orçamento<br>imediato</h2>
+    <p class="desc">Com a tecnologia do futuro</p>
+
+    <a href="#" class="cta-button">Obtenha um orçamento imediato</a>
+
+    <div class="device-images">
+      <img src="cel.png" alt="Celular" />
+    </div>
+
+    <div class="powered OpenAI">
+      Powered by OpenAI<br>
+      <img src="logoopen.png" alt="Logo OpenAI" />
+    </div>
+  </div>
 
 </body>
 </html>
