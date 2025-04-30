@@ -6,7 +6,12 @@
   <title>Service 4.0 - Orçamento Imediato</title>
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
-    body { font-family: Arial, sans-serif; background: #f5f5f5; text-align: center; color: #333; }
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      text-align: center;
+      color: #333;
+    }
     nav {
       display: flex;
       justify-content: space-between;
@@ -28,6 +33,25 @@
     p {
       font-size: 18px;
     }
+    footer {
+      margin-top: 80px;
+      padding: 20px;
+      background-color: #eee;
+    }
+    .footer-logos {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 40px;
+      margin-bottom: 10px;
+    }
+    .footer-logos img {
+      height: 50px;
+    }
+    .footer-text {
+      font-size: 14px;
+      color: #555;
+    }
   </style>
 </head>
 <body>
@@ -42,7 +66,15 @@
     <p>Orçamento imediato com inteligência real aplicada.</p>
   </main>
 
-</body>
-</html>
+  <footer>
+    <div class="footer-logos">
+      <img src="logoopen.png" alt="Logo OpenAI">
+      <img src="brasao.png" alt="Brasão Gonzalez">
+    </div>
+    <div class="footer-text">
+      © 2025 - Supercell Service 4.0 | Powered by OpenAI & Família Gonzalez
+    </div>
+  </footer>
 
+</body>
 </html>
